@@ -4,7 +4,6 @@ import 'package:rick_and_morty/bloc/app_bloc.dart';
 import 'package:rick_and_morty/data/repository/repository.dart';
 import 'package:rick_and_morty/ui/pages/character/characte_screen.dart';
 import 'package:rick_and_morty/ui/pages/location/location_screen.dart';
-
 import 'ui/widget/splash_screen_widget.dart';
 
 void main() {

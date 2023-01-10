@@ -7,6 +7,7 @@ import 'package:rick_and_morty/data/service/data_service.dart';
 
 class Repositories implements Repository {
   final ApiClinet apiClient = ApiClinet(Dio());
+
   Future<Character> getCharacters(int page) async {
     try {
       Response response = await apiClient.get(
