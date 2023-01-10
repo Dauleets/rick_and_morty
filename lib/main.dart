@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return BlocProvider<AppBloc>(
-      create: (context) => AppBloc(repositories: Repositories()),
+      create: (context) => AppBloc(repository: Repositories()),
       child: MaterialApp(
         routes: {
           '/character': (context) => CharacterScreen(),
