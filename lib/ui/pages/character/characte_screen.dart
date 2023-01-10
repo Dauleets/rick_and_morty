@@ -26,9 +26,8 @@ class _CharacterScreenState extends State<CharacterScreen> {
     final state = context.watch<AppBloc>().state;
     return state.when(
       loading: () => LoadingPageWidget(),
-      characterloaded: (characterLoaded) => LoadedCharacterPage(
-        character: characterLoaded,
-      ),
+      characterloaded: (characterLoaded) =>
+          LoadedCharacterPage(character: characterLoaded),
       locationloaded: (locationLoaded) => Container(),
       error: () => ErrorPageWidget(),
     );
