@@ -2,7 +2,7 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
 import 'package:rick_and_morty/data/models/character/character.dart';
 import 'package:rick_and_morty/data/models/location/location.dart';
-import 'package:rick_and_morty/data/service/_service.dart';
+import 'package:rick_and_morty/data/service/data_service.dart';
 
 // part 'app_bloc.g.dart';
 part 'app_bloc.freezed.dart';

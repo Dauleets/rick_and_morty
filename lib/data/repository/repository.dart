@@ -3,7 +3,7 @@ import 'package:rick_and_morty/data/api_cleint/api_client.dart';
 import 'package:rick_and_morty/data/api_cleint/api_contains.dart';
 import 'package:rick_and_morty/data/models/character/character.dart';
 import 'package:rick_and_morty/data/models/location/location.dart';
-import 'package:rick_and_morty/data/service/_service.dart';
+import 'package:rick_and_morty/data/service/data_service.dart';
 
 class Repositories implements Repository {
   final ApiClinet apiClient = ApiClinet(Dio());
