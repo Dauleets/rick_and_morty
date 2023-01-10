@@ -4,14 +4,15 @@
 
 api documentation: https://rickandmortyapi.com
 
-package: 
-flutter bloc - "https://pub.dev/packages/flutter_bloc"
-  json_serializable - "https://pub.dev/packages/json_serializable"
-  json_annotation - "https://pub.dev/packages/json_annotation"
-  freezed_annotation - "https://pub.dev/packages/freezed_annotation"
-  freezed - "https://pub.dev/packages/freezed"
-  flutter_native_splash - "https://pub.dev/packages/flutter_native_splash"
-  build_runner - "https://pub.dev/packages/build_runner"
+package:
+
+flutter bloc - "https://pub.dev/packages/flutter_bloc",
+json_serializable - "https://pub.dev/packages/json_serializable",
+json_annotation - "https://pub.dev/packages/json_annotation",
+freezed_annotation - "https://pub.dev/packages/freezed_annotation",
+freezed - "https://pub.dev/packages/freezed",
+flutter_native_splash - "https://pub.dev/packages/flutter_native_splash",
+build_runner - "https://pub.dev/packages/build_runner"
 
 Screens:
 
